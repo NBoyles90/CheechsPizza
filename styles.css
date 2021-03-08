@@ -1,0 +1,176 @@
+/* Author: Nikki Collins
+Date: 02/23/2021 */
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  background-color: rgb(56, 119, 128);
+  font-family: 'Bebas Neue', cursive;
+}
+.containerall{
+  background-color: rgb(210, 204, 161);
+  margin: 0px 8% 0px 8%;
+
+}
+/*------------ Header ------------------*/
+.headerimg{
+  position: relative;
+  text-align: center;
+  color: rgb(219, 212, 211);
+  max-width: 100%;
+}
+.headerimg img{
+  max-width: 100%;
+}
+header div h1{
+  position: absolute;
+  top:40%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  font-size: 45px;
+  text-shadow: 2px 2px 5px black, -2px 2px 5px black;
+}
+header div h2{
+  font-family: 'Caveat', cursive;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 35px;
+  text-shadow: 2px 2px 5px black, -2px 2px 5px black;
+}
+/*------------ nav ------------------*/
+.nav nav{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  background-color: rgb(232, 49, 81);
+  text-align: center;
+  margin: 0px 0px 5px 0px;
+}
+
+nav a{
+  background-color: rgb(232, 49, 81);
+  width: 100%;
+  padding: 5px 0;
+  text-align: center;
+  text-decoration: none;
+  color: rgb(219, 212, 211);
+  font-size: 1.2em;
+}
+nav a:hover{
+  background-color: rgb(210, 204, 161);
+  text-shadow: 2px 2px 5px rgb(117, 119, 128), -2px 2px 5px rgb(117, 119, 128);
+}
+/*--------------------menu-------------------------*/
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+
+}
+
+.flex-container div{
+  color: black;
+  width: 30%;
+  text-align: center;
+  margin: 5px;
+}
+
+section p{
+  text-align: left;
+  padding: 5px 10px 20px 10px;
+  width: 100%;
+}
+
+.flex-container div img{
+  border: 2px solid black;
+  box-shadow: 5px 2px 5px rgb(60, 60, 60);
+}
+/*------------------ flex the columns -----------------*/
+.flex-menu {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.flex-menu .col{
+  color: black;
+  width: 45%;
+  margin: 5px;
+}
+/*----------------form -------------------------------*/
+h4{font-size: 1.5em}
+form *{margin: 5px 0px;}
+form{background-color: rgb(219, 212, 211); margin: 2px; padding: 5px; border: 1px solid black;}
+fieldset {padding:5px;border:none;}
+input{width:30%}
+.submitbutton{text-align: center;}
+.submit{
+  border-radius: 25px;
+  color: rgb(219, 212, 211);
+  background-color: rgb(232, 49, 81);
+}
+/*--------------------------blockquote-------------------*/
+blockquote{
+  background-image: url("sf_speech.png");
+  background-repeat: no-repeat;
+  background-size:100% 100%;
+  padding: 20px 20px 20px 50px;
+}
+blockquote img{
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+/*-------------contact us------------------------*/
+h3{
+  font-size: 1.2em;
+}
+.contactus p{
+  text-indent: 20px;
+}
+/*-----------------social media---------------------*/
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 10px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-yahoo {
+  background: #430297;
+  color: white;
+}
+/*-------------------footer-----------------------*/
+footer{
+  background-color: rgb(232, 49, 81);
+  text-align: center;
+  width: 100%;
+  font-size: .8em;
+  padding: 10px 0px 10px 0;
+  color: rgb(219, 212, 211);
+}

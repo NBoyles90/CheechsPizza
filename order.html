@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <!-- Author: Nikki Collins
+  Date: 02/23/2021 -->
+  <meta charset="utf-8">
+  <title>Cheech's Pizza - Nikki</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="responsiveStyles.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <div class="containerall">
+    <header>
+      <div class="headerimg">
+        <img src="pizzahome.png" alt="Heading picture of pizza" style="height: 170px; width: 1050px;">
+        <h1>Cheech's Pizza</h1>
+        <h2>~ Order Now ~</h2>
+      </div>
+      <div class="nav">
+        <nav>
+          <a href="#">Home</a>
+          <a href="index.html">Menu</a>
+          <a href="order.html">Order Online</a>
+          <a href="#">Our Location</a>
+        </nav>
+      </div>
+      </header>
+      <div class="flex-menu">
+
+
+      <div class="col">
+        <form method="get" action="thankyou.html">
+          <h4>Enter Your Selection</h4>
+          <p>Please fill in the form, and we will be delivering your pizza lickety split</p>
+          <fieldset>
+            <legend><h3>Contact Information</h3></legend>
+            <!--this adds text fields to be filled out and makes them required with the word 'required'-->
+            <label class="lable" for="name">
+              Name:
+              <input autofocus type="text" name="name" id="name" required placeholder="First Name" />
+            </label>
+            <label class="lable" for="tel">
+              Phone number:
+              <input type="tel" name="cinfo" id="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required placeholder="417-123-4567" />
+            </label>
+          </fieldset>
+          <fieldset>
+            <legend><h3>Pick Your Pizza</h3></legend>
+            <label class="lable" for="pizza">
+              Choose Your Pizza:
+              <select id="pizza" name="pizza" required>
+                <option value="">Select One</option>
+                <option value="Cheezy Pizza">Cheezy</option>
+                <option value="Pepperoni">Peperoni</option>
+                <option value="Supreme">Supreme</option>
+                <option value="Meat Lovers">Meat Lovers</option>
+                <option value="Hawaiian Chicken">Hawaiian Chicken</option>
+                <option value="Create Your Own">Create Your Own</option>
+              </select>
+            </label>
+            <input type="number" name="How many Pizzas" value="" step="1" min="1" max="5" class="num" required placeholder="How Many Pizzas">
+          </fieldset>
+          <!--stinkin submit button that likes to hide outside the form causing me headaches when testing my form.-->
+        <div class="submitbutton">
+          <input class="submit" type="submit" value="Submit" />
+          </div>
+        </form>
+      </div>
+      <div class="col">
+        <blockquote>
+          <img src="star.png" alt="" style="max-height:20px;">
+          <p>Great food and even better Customer Service!! 5 stars everyday!</p>
+        </blockquote>
+        <div class="contactus">
+        <h3>Connect with us</h3>
+        <p>For support or any questions:</p>
+        <p>Email us at <a href="mailto:support@cheechspizza.com">support@cheechspizza.com</a></p>
+        <h3>Social media</h3>
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-instagram"></a>
+        <a href="#" class="fa fa-yahoo"></a>
+        </div>
+      </div>
+      </div>
+
+    <footer>Copy Righted 2021 &00A9;</footer>
+  </div>
+
+</body>
